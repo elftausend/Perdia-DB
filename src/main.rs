@@ -1,4 +1,4 @@
-#![feature(path_try_exists)]
+//#![feature(path_try_exists)]
 #[cfg(target_os = "windows")]
 use tokio::{net::{TcpListener}, signal};
 #[cfg(target_os = "linux")]
